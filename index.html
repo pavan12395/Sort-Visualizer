@@ -1,0 +1,40 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <link rel="stylesheet" href="index.css">
+    <title>Sorting Algos</title>
+    <body>
+        <input type="text" id="arr" placeholder="Use comma between two numbers"><br>
+        <div id="buttons">
+        <button type="submit" id="submit">Submit</button>
+        <button type="submit" id="clear">Clear</button>
+        <button type="submit" id="Sort">Sort</button>
+        </div>
+        <div id="collection">
+        <div id="root"></div>    
+        <div id="checkBoxes">
+            <div class="sort-item">
+            <label for="bubble">Bubble sort</label>
+            <input type="checkbox" id="bubblesort" name="bubble">
+            </div>
+            <div class="sort-item">
+            <label for="selection">Selection sort</label>
+            <input type="checkbox" id="selectionsort" name="selection">
+            </div>
+            <div class="sort-item">
+            <label for="merge">Merge sort</label>
+            <input type="checkbox" id="mergesort" name="merge"> 
+            </div>
+            <div class="sort-item">
+                <label for="merge">Quick sort</label>
+                <input type="checkbox" id="quicksort" name="quick"> 
+            </div>
+            <div class="sort-item">
+                <label for="heap">Heap sort</label>
+                <input type="checkbox" id="heapsort" name="heap"> 
+            </div>
+        </div>
+        </div>
+    </body>
+    <script src="sorting.js" type="module"></script>
+    <script src="SortingMethods.js" type="module"></script>
+</html>
